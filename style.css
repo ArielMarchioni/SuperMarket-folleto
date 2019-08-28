@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background-color: red;
+	color: #fff;
+}
+.contenedor{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.header{
+	padding: 40px;
+	justify-content: space-between;
+}
+
+.dlogo{
+	width: 500px;
+}
+.logo-coto{
+	width: 100%;
+}
+
+.flex{
+	display: flex;
+}
+
+
+.dias{
+	align-items: center;
+	color: black;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+	
+}
+
+.de{
+	margin-right: 15px;
+
+}
+.fechas{
+	width: 140px;
+	padding: 15px;
+	border: solid 2px black;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #fff;
+	max-width: 100%;
+
+
+}
+.negra{
+	font-size: 70px;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 74px;
+	text-align: center;
+
+}
+.lista-productos{
+	font-size: 40px;
+	justify-content: space-between;
+	list-style: none;
+	text-transform: uppercase;
+	
+}
