@@ -41,8 +41,24 @@ body{
 
 .de{
 	margin-right: 15px;
+	position: relative;
 
 }
+
+.circulo {
+	font-size: 20px;
+	text-transform: lowercase;
+	background-color: black;
+	color: #fff;
+	padding: 16px;
+	width: 60px;
+	border-radius: 50%;
+	text-align: center;
+	position: absolute;
+	bottom: 35%;
+	left: 85%;
+}
+
 .fechas{
 	width: 140px;
 	padding: 15px;
@@ -54,6 +70,8 @@ body{
 
 
 }
+
+
 .negra{
 	font-size: 70px;
 }
@@ -70,4 +88,75 @@ h1{
 	list-style: none;
 	text-transform: uppercase;
 	
+}
+
+.productos{
+	;
+}
+
+.left{
+	width: 540px;
+	overflow: hidden
+}
+
+   .left img{
+   	/*max-width: 100%;*/
+
+   }
+
+.right{ 
+	width: 540px;
+	flex-flow: row wrap;
+	background-color: #fff;
+	color: black;
+ }   
+
+.cuadros{
+	width: 270px;
+	height: 201px;
+	padding: 5px;
+	position: relative;
+	text-align: center;
+}
+
+   .cuadros img{
+   	
+   	max-width: 80%
+
+}
+
+.precios{
+	position: absolute;
+	top:95px;
+
+
+}   
+
+.actual{
+	background-color: yellow;
+	border: solid 2px black;
+	padding: 10px;
+	width: 60%;
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+
+
+}
+
+.anterior{
+
+}
+
+.text-anterior{
+	color: red;
+}
+
+
+footer{
+	height: 30px;
+}
+footer p{
+	text-transform: uppercase;
+	font-size: 13px;
 }
