@@ -144,9 +144,7 @@ h1{
 
 }
 
-.anterior{
 
-}
 
 .text-anterior{
 	color: red;
@@ -159,4 +157,124 @@ footer{
 footer p{
 	text-transform: uppercase;
 	font-size: 13px;
+}
+
+
+/*responsive */
+
+@media ( max-width: 1095px){
+    
+
+    h1{
+    	font-size: 65px;
+    }	
+
+    .lista-productos{
+    	font-size: 30px;
+    }
+
+	.productos{
+		flex-direction: column;
+	}
+
+	.left{
+		width: auto;
+	}
+
+	.right{
+		width: auto;
+	}
+	
+
+}
+
+/*Iphone 8 plus */
+@media ( max-width: 414px){
+		header{
+		flex-direction: column;
+	}
+
+	.dlogo{
+		width: 350px;
+		margin-bottom: 15px;
+	}
+
+	
+    .dias{
+	font-weight: 600;
+	font-size: 15px;
+	justify-content: center;
+	
+	}
+
+	.negra{
+		font-size: 25px;
+	}
+
+	.fechas{
+	width: 100px;
+	padding: 15px;
+	max-width: 100%;
+
+}
+
+
+
+    .circulo {
+	font-size: 20px;
+	padding: 10px;
+	width: 50px;
+}
+
+    h1{
+    	font-size: 45px;
+    }
+
+
+
+    .logo-coto{
+    	max-width: 100%
+    }
+
+    .lista-productos{
+    	font-size: 15px;
+    	flex-flow: row wrap;
+    }
+
+    .left{
+    	height: 400px;
+    }
+	
+	.right{ 
+	width: 100%;
+	
+ }   
+
+    .cuadros{
+	width: 200px;
+	height: 100px;
+	padding: 5px;
+	margin-bottom: 45px;
+}
+
+.precios{
+	top: 60px;
+
+}   
+
+.actual{
+
+	padding: 10px;
+	width: 50%;
+	font-size: 15px;
+}
+
+footer{
+	padding: 10px;
+	
+}
+
+
+
+
 }
