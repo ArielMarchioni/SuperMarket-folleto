@@ -308,12 +308,12 @@ footer{
 
     .right{
     	padding-bottom: 10px;
+    	padding-left: 15px;
     }
     .cuadros{
 	width: 138px;
 	height: 50px;
 	padding: 5px;
-	padding-left: 18px;
 	margin-bottom: 45px;
 
 	}
