@@ -190,6 +190,11 @@ footer p{
 
 /*Iphone 8 plus */
 @media ( max-width: 414px){
+	
+	.contenedor{
+		padding: 7px;
+	}	
+
 		header{
 		flex-direction: column;
 	}
@@ -278,3 +283,53 @@ footer{
 
 
 }
+
+/*Iphone SE*/
+
+@media ( max-width: 320px){
+	
+	.contenedor{
+		padding: 5px;}
+
+	.dlogo{
+		width: 250px;
+		margin-bottom: 15px;
+	}
+
+	h1{
+		font-size: 35px;
+		margin-bottom: 5px;
+	}
+
+	.lista-productos{
+    	font-size: 15px;
+    	justify-content: center;
+    }
+
+    .right{
+    	padding-bottom: 10px;
+    }
+    .cuadros{
+	width: 138px;
+	height: 50px;
+	padding: 5px;
+	margin-bottom: 45px;
+	}
+
+	.precios{
+	top: 40px;
+
+	}   
+
+	.actual{
+
+	padding: 5px;
+	width: 50%;
+	font-size: 14px;
+	}
+	.anterior{
+		font-size: 12px;
+
+	}
+
+}	
